@@ -1,0 +1,7 @@
+random.random() 产生0-1的随机浮点数
+random.uniform(a, b) 产生指定范围内的随机浮点数
+random.randint(a, b) 产生指定范围内的随机整数
+random.randrange([start], stop[, step]) 从一个指定步长的集合中产生随机数
+random.choice(sequence) 从序列中产生一个随机数
+random.shuffle(x[, random]) 将一个列表中的元素打乱
+random.sample(sequence, k) 从序列中随机获取指定长度的片断

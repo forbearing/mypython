@@ -1,0 +1,13 @@
+Cookies
+    1:使用 Selenium，还可以方便地对 Cookies 进行操作，例如获取、添加、删除 Cookies 等
+    from selenium import webdriver
+    browser = webdriver.Chrome()
+    browser.get('https://www.zhihu.com/explore')
+    print(browser.get_cookies())
+    browser.add_cookie({'name':'name', 'domain':'www.zhihu.com', 'value':'germey'})
+    print(browser.get_cookies())
+    browser.delete_all_cookies()
+    print(browser.get_cookies())
+    # get_cookies() 获取所有 cookies
+    # add_cookie() 添加 cookies
+    # delete_all_cookies() 删除所有的 Cookies

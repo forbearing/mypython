@@ -1,0 +1,41 @@
+1:Python 中一切皆对象
+    鸭子类型
+    抽象 基类
+    MRO 属性查找算法和 super 函数
+    静态方法,类方法,实例方法
+    数据封装和私有属性
+    对象的自自省机制
+    上下文管理器
+    contextlib 实现上下文管理器
+    mixin 集成模式的应用
+2:魔法函数
+3:深入类和对象
+4:自定义序列类
+5:深入 Python 的 set 和 dict
+6:对象引用,可变性和垃圾回收
+7:元类编程
+    property 动态属性
+    __getattr__, __getattribute__ 区别
+    属性描述符
+    __new__ 和 __init__
+    元类实现 orm
+8:迭代器和生成器
+9:python socket 编程
+10:多线程,多进程和线程池编程
+    GIL 和多线程
+    线程通信-共享变量, Queue
+    线程同步-Lock, RLock, Condition, Semaphores
+    线程池和源码分析- ThreadPoolExecutor
+    多进程 multiprocesssing
+    进程间通信
+11:协程和异步 io
+    IO多路复用: select, pool, epoll
+    select + 回调 + 事件循环模式
+    生成器进阶: send, close, throw, yeild from
+    async, await
+12:asyncio 并发编程
+    Future 和 Task
+    aiohttp 实现高并发抓取 url
+    asyncio 背后的 selector
+    协程同步和通信
+    ThreadPoolExecutor + asyncio

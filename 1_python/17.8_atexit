@@ -1,0 +1,1 @@
+atexit.register(fun,args,args2..) 注册函数func，在解析器退出前调用该函数

@@ -1,0 +1,124 @@
+1584554247539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef591U6"
+1584554247826	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584554248100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584554248100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584554248100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584554248100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584554249498	Marionette	INFO	Listening on port 33123
+1584554249544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584554286693	Marionette	INFO	Stopped listening on port 33123
+1584554288275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelKBWni"
+1584554288584	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584554288849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584554288849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584554288849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584554288849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584554290282	Marionette	INFO	Listening on port 43313
+1584554290433	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.0.33/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.0.33/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.8.7/index.js, line 1: Error: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.72/ns_d_83_3_n.js, line 3: Error: WebGL context was lost.
+1584554313163	Marionette	INFO	Stopped listening on port 43313
+1584554352010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeQERUd"
+1584554352310	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584554352588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584554352588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584554352588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584554352588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584554354080	Marionette	INFO	Listening on port 40467
+1584554354161	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.0.33/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.0.33/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.8.7/index.js, line 1: Error: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.72/ns_d_83_3_n.js, line 3: Error: WebGL context was lost.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1584554424573	addons.xpi	WARN	Addon with ID google@search.mozilla.org already installed, older version will be disabled
+1584554424573	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1540:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1540:17
+makeAddonVisible@XPIDatabase.jsm:2347:10
+addToDatabase@XPIDatabase.jsm:2274:12
+install@XPIInstall.jsm:4343:27
+update@XPIProvider.jsm:2052:13
+1584554424574	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1540:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1540:17
+addToDatabase@XPIDatabase.jsm:2277:10
+install@XPIInstall.jsm:4343:27
+update@XPIProvider.jsm:2052:13
+1584554424599	addons.xpi	WARN	Addon with ID amazondotcom@search.mozilla.org already installed, older version will be disabled
+1584554424599	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1540:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1540:17
+makeAddonVisible@XPIDatabase.jsm:2347:10
+addToDatabase@XPIDatabase.jsm:2274:12
+install@XPIInstall.jsm:4343:27
+update@XPIProvider.jsm:2052:13
+1584554424600	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1540:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1540:17
+addToDatabase@XPIDatabase.jsm:2277:10
+install@XPIInstall.jsm:4343:27
+update@XPIProvider.jsm:2052:13
+1584554424617	addons.xpi	WARN	Addon with ID bing@search.mozilla.org already installed, older version will be disabled
+1584554424618	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1540:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1540:17
+makeAddonVisible@XPIDatabase.jsm:2347:10
+addToDatabase@XPIDatabase.jsm:2274:12
+install@XPIInstall.jsm:4343:27
+update@XPIProvider.jsm:2052:13
+1584554424618	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1540:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1540:17
+addToDatabase@XPIDatabase.jsm:2277:10
+install@XPIInstall.jsm:4343:27
+update@XPIProvider.jsm:2052:13
+1584554424638	addons.xpi	WARN	Addon with ID ddg@search.mozilla.org already installed, older version will be disabled
+1584554424639	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1540:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1540:17
+makeAddonVisible@XPIDatabase.jsm:2347:10
+addToDatabase@XPIDatabase.jsm:2274:12
+install@XPIInstall.jsm:4343:27
+update@XPIProvider.jsm:2052:13
+1584554424639	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1540:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1540:17
+addToDatabase@XPIDatabase.jsm:2277:10
+install@XPIInstall.jsm:4343:27
+update@XPIProvider.jsm:2052:13
+JavaScript error: , line 0: uncaught exception: undefined
+1584554424708	Marionette	INFO	Stopped listening on port 40467
+1584554425367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEq0UhD"
+1584554425668	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584554425950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584554425950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584554425950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584554425950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584554427512	Marionette	INFO	Listening on port 45235
+1584554427597	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://d.jd.com/lab/get?callback=lab, line 1: SyntaxError: unexpected token: identifier
+JavaScript error: , line 0: uncaught exception: undefined
+1584554589852	Marionette	INFO	Stopped listening on port 45235
+1584554592776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejdB0TO"
+1584554593105	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584554593390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584554593390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584554593390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584554593390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584554594880	Marionette	INFO	Listening on port 44385
+1584554594891	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.0.33/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.0.33/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.8.7/index.js, line 1: Error: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.72/ns_d_83_3_n.js, line 3: Error: WebGL context was lost.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+1584554629598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRiLd4E"
+1584554629900	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584554630165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584554630165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584554630165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584554630165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584554631725	Marionette	INFO	Listening on port 36205
+1584554631807	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.0.33/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.0.33/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.8.7/index.js, line 1: Error: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.72/ns_d_83_3_n.js, line 3: Error: WebGL context was lost.
+1584554636032	Marionette	INFO	Stopped listening on port 36205
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 551: uncaught exception: undefined
+1584554642014	Marionette	INFO	Stopped listening on port 44385

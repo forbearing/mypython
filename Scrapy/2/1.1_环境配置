@@ -1,0 +1,124 @@
+1:Anaconda
+2:MongoDB
+    1:Windows
+        mongod --bind_ip 0.0.0.0 --port 27017 \
+            --dbpath C:\MongoDB\Server\3.4\data\db \
+            --logpath C:\MongoDB\Server\3.4\data\logs\mongo.log --logappend \
+            --serviceName "MongoDB" --serviceDisplayName "MongoDB" \
+            --install
+    2:Linux
+        apt install mongodb mongodb-clients
+        mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+        ufw allow 27017
+        vi /etc/mongodb.conf
+            bind_ip = 127.0.0.1,your_server_ip
+            port = 27017
+    3:MongoDB
+        brew install mongodb
+        mongod                  # 启动 mongodb 服务
+        mongo                   # 进入命令行交互模式
+
+3:Redis
+    1:Windows
+        MSOpenTech
+        Redis Desktop Manager
+    2:Linux
+        apt install redis-server
+        redis-cli                   # 进入命令行模式
+            > set 'a' 'b'
+            > get 'a'
+        vi /etc/redis/redis.cconf
+            bind 127.0.0.1          # 注释掉后, 就可以远程连接 redis 数据库
+            requirepass Your_PASS   # redis 连接密码
+        systemctl restart reids-server
+        redis-cli -a Your_PASS      # 进入命令行模式需要密码
+    2:Mac
+        brew install redis
+        brew services list
+        brew services start redis
+
+
+4:MySQL
+    1:Windows
+        mysql-front: mysql 可视化客户端
+    2:Linux
+        apt install mysql-server mysql-client
+        vi /etc/mysql/mysql.conf
+            bind-address 127.0.0.1          # 注释掉
+    3:Mac
+        brew install mysql
+        brew services start mysql
+        /usr/local/Cellar/mysql/8.0.19/bin/mysqld --initialize-insecure 
+            --user=jonas \
+            --basedir=/usr/local/Cellar/mysql/8.0.19 \
+            --datadir=/usr/local/var/mysql \
+            --tmpdir=/tmp
+        mysql -uroot -p
+
+5:Python 多版本共存配置
+    1:Windows
+    2:Linux
+    3:MacOS
+    4:PyCharm
+
+6:爬虫常用库的安装
+    1:urllib, re: python 内置
+    2:requests
+        pip install requests
+    3:Selenium
+        驱动浏览器,自动化测试
+        chromdriver
+            from selenium import webdriver
+            driver = webdriver.Chrome()
+            driver.get('https://www.baidu.com')
+            driver.page_source
+        phantomjs: 无界面浏览器
+            ln -s /usr/local/Cellar/phantomjs-2.1.1-macosx/bin/phantomjs /usr/local/bin/
+            from selenium import webdriver
+            driver = webdriver.PhantomJS
+    4:lxml: 
+        HTML/XML 解析器, 用来解析提取 HTML/XML 数据, 依赖 wheel
+        pip install lxml
+    5:beautifulsoup: 
+        网页解析库, 依赖 lxml
+        pip install beautifulsoup4
+        from bs4 import BeautifulSoup
+    6:pyquery: 
+        网页解析库
+        pip install pyquery
+        from pyquery import PyQuery as pq
+    7:pymysql
+        操作 mysql 数据库
+        pip install pymysql
+        import pymysql
+        conn = pymysql.connect(host="localhost", 
+            user="root", password="123", port=3306, db="mydb")
+        cursor = conn.cursor()
+        cursor.exec('select * from db')
+        cursor.fetchone()
+    8:pymongo
+        操作 MongoDB 数据库
+        pip install pymongo
+        import pymongo
+        client = pymongo.MongoClient('localhost')
+        db = client('newtestdb')
+        db['table'].insert(('name': 'jonas'))
+        db['table'].find_one(('name': 'jonas'))
+    9:redis
+        pip install redis
+        import redis
+        r = redis.Redis('localhost', 6379)
+        r.set('name': 'jonas')
+        r.get('name')
+    10:flask
+        web 库, 做代理设置的时候会用到
+        pip install flask
+        from flask import Flask
+    11:django
+        web 服务器框架
+        pip install django
+    12:jupyter
+        网页端的记事本, 可以在其中写代码,调试,运行
+        pip install jupyter
+        jupyter notebook
+        jupyter-notebook

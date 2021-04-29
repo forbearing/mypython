@@ -1,0 +1,30 @@
+1:爬虫原理与数据抓取
+	1:了解通用爬虫和聚焦爬虫
+	2:HTTP/HTTPS 的请求与响应
+	3:HTTP/HTTPS 抓包工具-fiddler
+	4:urllib2 模块的基本使用
+	5:GET 请求和 POST 请求
+	6:Handler 处理器和自定义 Opener
+	7:URL Error 与 HTTP Error
+	8:Requests 模块的使用
+
+2:非结构化数据与结构化数据提取
+
+3:动态 HTML 处理和文字图像识别
+
+4:Scrapy 框架
+
+5:Scrapy 实战项目
+
+6:Scrapy-redis 分布式组件
+
+7:Scrapy-redis 实战
+
+
+虚拟环境
+	virtualenv
+	virtualenvwrapper
+
+virtualenv
+	https://pythonguidecn.readthedocs.io/zh/latest/index.html
+	https://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html#virtualenvironments-ref

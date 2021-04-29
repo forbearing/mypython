@@ -1,0 +1,29 @@
+三种模块
+    自定义模块
+    内置标准模块
+    开源模块(第三方)
+
+模块导入
+    import module
+    from module.xx.xx import xx
+    from module.xx.xx import xx as rename
+    from module.xx.xx import *
+
+常见内置模块
+    datetime, date, time
+    os, stat, sys
+    random
+    pickle
+    hashlib, md5
+    types
+    atexit
+    string
+    urllib
+    re
+    math
+
+
+URL
+    https://www.cnblogs.com/derek1184405959/p/8078948.html
+    https://cloud.tencent.com/developer/article/1091782
+    https://www.imooc.com/article/36135

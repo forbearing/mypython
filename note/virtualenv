@@ -1,0 +1,22 @@
+1:
+    1:把系统 Python 复制一份到 virtualenv 的环境，用命令 source first/bin/active 进入
+      一个virtualenv 环境时，virtualenv 会修改相关环境变量，让命令 python 和 pip 指向
+      当前的 virtualenv 环境。
+    2:如果在命令行中运行virtualenv --system-site-packages ENV 会继承
+      /usr/lib/python2.7/site-packages下的所有库, 最新版本virtualenv
+      把访问全局site-packages作为默认行为
+
+
+virtuanenv --no-site-packages first
+    # 创建一个独立的 Python 运行环境
+    # --no-site-packages 已经安装到系统 Python 环境中的所有第三方包都不会复制过来
+    #   这样就得到了不带任何第三方包的 “干净” 的 Python 运行环境
+source first/usr/local/bin/active
+    # pip 安装的包都被安装到在此虚拟环境下
+deactive
+    # 退出当前虚拟环境
+virtualenv -p /usr/bin/python2.7 ENV2.7
+    # 可以使用-p PYTHON_EXE选项在创建虚拟环境的时候指定python版本
+virtualenv --relocatable ./
+    # 对当前已经创建好了的虚拟环境改为可迁移
+    # 生成可打包环境

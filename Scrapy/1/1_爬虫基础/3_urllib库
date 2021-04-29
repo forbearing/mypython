@@ -1,0 +1,11 @@
+1:urllib 库
+	是 Python 中一个最基本的请求库，可以模拟浏览器的行为，向指定的服务器发送一个请求，并可以
+	保存服务器返回的数据
+
+2:urlopen 函数
+	- 在 Python3 的 urllib 库中，所有和网络请求相关的方法，都被集成到 urllib.request 模块下面了，
+	  先来看下 urllib 函数的基本使用
+		from urllib import request
+		resp = request.urlopen('http://www.baidu.com')
+		print(resp.read())
+	- 实际上，使用浏览器访问百度，右键查看源代码，你会发现，和我们刚才打印出来的数据是一摸一样的

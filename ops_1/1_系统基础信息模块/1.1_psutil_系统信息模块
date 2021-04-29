@@ -1,0 +1,130 @@
+介绍
+    * 实现了同等命令工具提供的功能，如 ps、top、lsof、netstat、ifconfig、who、df、
+      kill、free、nice、ionice、iostat、iotop、uptime、pidof、tty、taskset、pmap 等。
+    * 支持 Linux、Windows、OSX、FreeBSD、Solaris 等操作系统
+
+
+
+CPU
+    psutil.cpu_times()
+    psutil.cpu_times().user
+    psutil.cpu_times().system
+    psutil.cpu_times().idle
+    psutil.cpu_times().steal
+    psutil.cpu_times().guest
+
+    psutil.cpu_times_percent().user
+    psutil.cpu_times_percent().system
+    psutil.cpu_times_percent().idle
+    psutil.cpu_times_percent().steal
+    psutil.cpu_times_percent().guest
+
+    psutil.cpu_percent()                    # CPU 使用率
+
+    psutil.cpu_count()                      # CPU 逻辑个数
+    psutil.cpu_count(logical=False)         # CPU 物理个数
+    psutil.cpu_freq().current               # CPU 频率
+
+
+
+Memory
+    psutil.virtual_memory()   
+    psutil.virtual_memory().total
+    psutil.virtual_memory().available
+    psutil.virtual_memory().percent
+    psutil.virtual_memory().userd
+    psutil.virtual_memory().free
+    psutil.virtual_memory().buffers
+    psutil.virtual_memory().cached
+    psutil.virtual_memory().shared
+
+    psutil.swap_memory()
+    psutil.swap_memory().total
+    psutil.swap_memory().used
+    psutil.swap_memory().free
+    psutil.swap_memory().percent
+
+
+
+IO
+    psutil.disk_io_counters()               # IO 的读写量、时间的计数
+    psutil.disk_io_counters(perdisk=True)   # 获取单个分区的
+    psutil.disk_paratitions()               # 获取磁盘每个分区的信息
+    psutil.disk_usage("/")                  # 获取根分区的磁盘使用情况
+    psutil.disk_usage("/").total
+    psutil.disk_usage("/").used
+    psutil.disk_usage("/").free
+    psutil.disk_usage("/").percent
+
+
+
+Network
+    psutil.net_connections()                # 网络的连接情况，相当于 netstat 命令
+    psutil.net_if_addrs()                   # IP 地址信息
+    psutil.net_if_counters()                # 网络IO信息，网速
+    psutil.net_io_counters(pernic=True)     # 每个网络接口的 IO 信息
+    psutil.net_if_counters().bytes_sent     # 发送字节
+    psutil.net_if_counters().bytes_recv     # 接受字节
+    psutil.net_if_counters().packets_sent   # 发送包数量
+    psutil.net_if_counters().packets_recv   # 接受包数量
+    psutil.net_if_counters().errin          # in package error
+    psutil.net_if_counters().errout         # out package error
+    psutil.net_if_counters().dropin         # in package drop
+    psutil.net_if_counters().dropout        # out pacage drop
+    psutil.net_if_stats()                   # 网卡信息
+
+
+
+processes
+    psutill.pids()                          # 列出所有进程
+    p = psutil.Process(790)                 # 实例化一个 process 对象，参数为此进程的 pid
+    p.children()                            # 进程的子进程
+    p.cmdline()                             # 进程的执行命令
+    p.connections()                         # 进程的监听地址和监听端口
+    p.cpu_affinity()                        # 进程 cpu 亲和度
+    p.cpu_num()                             # 进程使用 CPU 个数
+    p.cpu_percent()                         # 进程的 CPU 使用率
+    p.cpu_times()                           # 进程的 cpu 时间信息
+    p.create_time()                         # 进程的创建时间
+    p.cwd()                                 # 进程的工作目录绝对路径
+    p.environ()                             # 进程运行时的环境变量
+    p.exe()                                 # 进程的 bin 路径
+    p.gids()                                # 进程 gid 信息
+    p.io_counters()                         # 进程的 IO 信息
+    p.is_running()                          # 进程是否在运行
+    p.kill()                                # 杀死当前进程
+    p.memory_full_info()                    # 进程的所有内存信息
+    p.memory_info()                         # 进程的常用内存信息
+    p.memory_maps()                         # 进程的共享内存映射区
+    p.memory_percent()                      # 进程的内存使用率
+    p.name()                                # 进程名
+    p.nice()                                # 进程的运行优先级
+    p.fds()                                 # 进程打开的文件个数
+    p.num_threads()                         # 进程的线程个数
+    p.open_files()                          # 进程打开的文件
+    p.parents()                             # 进程的父进程
+    p.pid                                   # 进程 ID
+    p.ppid                                  # 父进程 ID
+    p.suspend()                             # 进程挂起
+    p.resume()                              # 进程恢复
+    p.terminate()                           # 终止进程，
+    p.uids()                                # 进程 uid 信息
+    p.username()                            # 进程的运行所有者
+
+    psutil 的 Popen 类启动应用程序，可以跟踪程序的相关信息
+    from subprocess import PIPE
+    p = psutil.Popen(["/usr/bin/python", "-c", "print("hello")"],stdout=PIPE)
+    p.name()
+    p.username()
+    p.communicate()
+    p.cpu_times()
+
+
+others
+    psutil.users()                          # 获取当前登陆系统的用户信息
+    psutil.boot_time()                      # 获取开机时间，以 Linux 时间格式返回
+    datetime.datetime.fromtimestamp(psutil.boot_time()).strftime("%Y-%m-%d %H: %M: %S")     # 转换成自然时间
+    psutil.pids()                           # 获取所有进程的 pid
+
+
+

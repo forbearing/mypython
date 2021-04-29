@@ -1,0 +1,12 @@
+[
+    {
+        "targets": [
+            "10.250.11.11:80"
+        ],
+        "labels": {
+            "group": "tbox",
+            "app": "ui",
+            "hostname": "hybfkuf.com"
+        }
+    }
+]

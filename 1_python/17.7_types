@@ -1,0 +1,10 @@
+保存了所有数据类型名称。
+if type(‘1111‘) == types.StringType:
+MySQLdb模块：
+MySQLdb.get_client_info() 获取API版本
+MySQLdb.Binary(‘string‘) 转为二进制数据形式
+MySQLdb.escape_string(‘str‘) 针对mysql的字符转义函数
+MySQLdb.DateFromTicks(1395842548) 把时间戳转为datetime.date对象实例
+MySQLdb.TimestampFromTicks(1395842548) 把时间戳转为datetime.datetime对象实例
+MySQLdb.string_literal(‘str‘) 字符转义
+MySQLdb.cursor()游标对象上的方法：《python核心编程》P624

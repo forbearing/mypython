@@ -1,0 +1,14 @@
+描述os.stat()返回的文件属性列表中各值的意义
+fileStats = os.stat(path) 获取到的文件属性列表
+fileStats[stat.ST_MODE] 获取文件的模式
+fileStats[stat.ST_SIZE] 文件大小
+fileStats[stat.ST_MTIME] 文件最后修改时间
+fileStats[stat.ST_ATIME] 文件最后访问时间
+fileStats[stat.ST_CTIME] 文件创建时间
+stat.S_ISDIR(fileStats[stat.ST_MODE]) 是否目录
+stat.S_ISREG(fileStats[stat.ST_MODE]) 是否一般文件
+stat.S_ISLNK(fileStats[stat.ST_MODE]) 是否连接文件
+stat.S_ISSOCK(fileStats[stat.ST_MODE]) 是否COCK文件
+stat.S_ISFIFO(fileStats[stat.ST_MODE]) 是否命名管道
+stat.S_ISBLK(fileStats[stat.ST_MODE]) 是否块设备
+stat.S_ISCHR(fileStats[stat.ST_MODE]) 是否字符设置

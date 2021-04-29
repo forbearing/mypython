@@ -1,0 +1,77 @@
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+argglobal
+if bufexists("~/MEGA/LinuxNote/dataScience/Matplotlib/3.py") | buffer ~/MEGA/LinuxNote/dataScience/Matplotlib/3.py | else | edit ~/MEGA/LinuxNote/dataScience/Matplotlib/3.py | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+2,38fold
+40,65fold
+67,101fold
+104,127fold
+129,151fold
+103,153fold
+155,160fold
+166,184fold
+186,218fold
+220,246fold
+162,248fold
+251,253fold
+255,279fold
+281,283fold
+285,312fold
+250,314fold
+317,320fold
+322,354fold
+356,368fold
+370,411fold
+316,413fold
+416,418fold
+420,464fold
+466,472fold
+474,484fold
+415,486fold
+489,493fold
+495,528fold
+530,552fold
+554,576fold
+488,576fold
+103
+normal! zo
+103
+normal! zc
+162
+normal! zo
+162
+normal! zc
+250
+normal! zo
+250
+normal! zc
+316
+normal! zo
+316
+normal! zc
+415
+normal! zo
+415
+normal! zc
+488
+normal! zo
+488
+normal! zc
+let s:l = 488 - ((422 * winheight(0) + 23) / 46)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+488
+normal! 0
+let &so = s:so_save | let &siso = s:siso_save
+nohlsearch
+doautoall SessionLoadPost
+" vim: set ft=vim :

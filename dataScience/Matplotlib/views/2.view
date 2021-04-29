@@ -1,0 +1,31 @@
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+argglobal
+"if bufexists("~/MEGA/LinuxNote/dataScience/Matplotlib/2.py") | buffer ~/MEGA/LinuxNote/dataScience/Matplotlib/2.py | else | edit ~/MEGA/LinuxNote/dataScience/Matplotlib/2.py | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+2,26fold
+28,52fold
+54,79fold
+81,103fold
+105,132fold
+134,163fold
+165,188fold
+190,213fold
+215,236fold
+let s:l = 222 - ((221 * winheight(0) + 23) / 46)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+222
+normal! 0
+let &so = s:so_save | let &siso = s:siso_save
+nohlsearch
+doautoall SessionLoadPost
+" vim: set ft=vim :

@@ -1,0 +1,2 @@
+hashlib.md5(‘md5_str‘).hexdigest() 对指定字符串md5加密
+md5.md5(‘md5_str‘).hexdigest() 对指定字符串md5加密

@@ -1,0 +1,101 @@
+1:非数学运算
+    1:字符串表示
+        __repr__
+        __str__
+    2:集合,序列相关
+        __len__
+        __getitem__
+        __setitem__
+        __delitem__
+        __contains__
+    3:迭代相关
+        __iter__
+        __next__
+    4:可调用
+        __call__
+    5:with 上下文管理
+        __enter__
+        __exit__
+    6:数值转换
+        __abs__
+        __bool__
+        __int__
+        __float__
+        __hash__
+        __index__
+    7:元类相关
+        __new__
+        __init__
+    8:属性相关
+        __getattr__  __setattr__
+        __getattribute__  __setattribute__
+        __dir__
+    9:属性描述符
+        __get__
+        __set__
+        __delete__
+    10:协程
+        __await__
+        __aiter__
+        __anext__
+        __aenter__
+        __aexit__
+
+2:数学运算
+    1:一元运算符
+        __neg__(-)
+        __pos__(+)
+        __abs__
+    2:二院运算符
+        __lt__(<)
+        __le__(<=)
+        __eq__(==)
+        __ne__(!=)
+        __gt__(>)
+        __ge__(>=)
+    3:算数运算符
+        __add__(+)
+        __sub__(-)
+        __mul__(*)
+        __truediv__(/)
+        __floordiv__(//)
+        __mod__(%)
+        __divmod__ divmod()
+        __pow__(**) pow()
+        __round__ round()
+    4:反向算术运算符
+        __radd__
+        __rsub__
+        __rmul__
+        __rtruediv__
+        __rfloordiv__
+        __rmod__
+        __rdivmod__
+        __rpow__
+    5:增量赋值算数运算符
+        __iadd__
+        __isub__
+        __imul__
+        __itruediv__
+        __ifloordiv__
+        __imod__
+        __ipow__
+    6:位运算符
+        __invert__(~)
+        __lshift__(<<)
+        __rshift__(>>)
+        __and__(&)
+        __or__(|)
+        __xor__(^)
+    7:反向位运算符
+        __rlshift__
+        __rrshift__
+        __rand__
+        __rxor__
+        __ror__
+    8:增量赋值位运算符
+        __ilshift__
+        __irshift__
+        __iand__
+        __ixor__
+        __ior__
